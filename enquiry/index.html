@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en" class="no-js" data-mode="preview">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Enquiry | Momac Energy and Trading</title>
+<meta name="description" content="Build a trade brief. When you submit the form, the brief is sent to the Momac Energy and Trading enquiries mailbox.">
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://momacenergytrading.com/enquiry/">
+<link rel="icon" type="image/svg+xml" href="../assets/img/momac-energy-light.svg">
+<link rel="stylesheet" href="../assets/site.css">
+<script>document.documentElement.className='js';</script>
+<script src="../assets/site.js" defer></script>
+<script src="../assets/enquiry.js" defer></script>
+</head>
+<body class="page-enquiry">
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+<div class="wrap hbar">
+<a class="brand" href="../"><img src="../assets/img/momac-energy-light.svg" alt="Momac Energy and Trading" width="134" height="40"></a>
+<nav class="main" id="site-nav" aria-label="Main"><a href="../">Home</a><a href="../how-we-trade/">How we trade</a><a href="../products/">Products</a><a href="../process/">Process</a><a href="../partners/">Partners</a><a href="../leadership/">Leadership</a><a href="../compliance/">Compliance</a><a href="../enquiry/" aria-current="page">Enquiry</a></nav>
+<a class="hcomp" href="../compliance/">Compliance</a>
+<button class="navbtn" id="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Menu"><span></span><span></span></button>
+</div>
+</header>
+<main id="main">
+<section class="page-head">
+<div class="wrap">
+<span class="idx">[07] Enquiry</span>
+<h1 class="h1">Build your brief.</h1>
+<p class="lead">Fill in what you know. The brief on the right updates as you type. When you submit the form, it is sent to the Momac Energy and Trading enquiries mailbox.</p>
+</div>
+</section>
+<section class="sec tight" id="enquiry-sec">
+<div class="wrap">
+<div class="build">
+<div class="build-form">
+<p class="form-note" id="form-notice">This form is not connected in this preview. Submitting it shows the email fallback.</p>
+<form id="enquiry-form" action="" method="post" data-err-role="Choose your role." data-err-company="Enter your company." data-err-name="Enter your name." data-err-email="Enter your email address." data-err-email-bad="Enter a valid email address." data-sending="Sending" data-label="Send brief" data-endpoint="" data-subject="Trade enquiry" data-head="MOMAC ENERGY AND TRADING · ENQUIRY" data-notes="NOTES" data-count=" / 7 trade fields" data-copied="Brief copied." data-manual="Copying is not available here. The brief is selected: copy it manually." data-l-role="Role" data-l-company="Company" data-l-name="Name" data-l-email="Email" data-l-product="Product" data-l-grade="Specification" data-l-volume="Volume" data-l-loading_point="Loading point" data-l-destination="Destination" data-l-delivery_window="Delivery window">
+<div class="grid2">
+<div><label class="f" for="f-role">You are <span class="req">required</span></label><select id="f-role" name="role" required><option value="">Choose</option><option value="Supplier">Supplier</option><option value="Buyer">Buyer</option><option value="Capital provider">Capital provider</option><option value="Shipping or logistics">Shipping or logistics</option></select><p class="field-error" id="err-role" data-for="role" hidden></p></div>
+<div><label class="f" for="f-product">Product</label><select id="f-product" name="product"><option value="">Choose</option><option value="Crude oil">Crude oil</option><option value="Refined products">Refined products</option><option value="Not product specific">Not product specific</option></select></div>
+<div><label class="f" for="f-grade">Grade or specification</label><input id="f-grade" name="grade" maxlength="200" ></div>
+<div><label class="f" for="f-volume">Volume</label><input id="f-volume" name="volume" maxlength="200" ></div>
+<div><label class="f" for="f-loading_point">Loading point</label><input id="f-loading_point" name="loading_point" maxlength="200" ></div>
+<div><label class="f" for="f-destination">Destination</label><input id="f-destination" name="destination" maxlength="200" ></div>
+<div><label class="f" for="f-delivery_window">Delivery window</label><input id="f-delivery_window" name="delivery_window" maxlength="200" ></div>
+<div><label class="f" for="f-company">Company <span class="req">required</span></label><input id="f-company" name="company" maxlength="200" autocomplete="organization" required><p class="field-error" id="err-company" data-for="company" hidden></p></div>
+<div><label class="f" for="f-name">Your name <span class="req">required</span></label><input id="f-name" name="name" maxlength="200" autocomplete="name" required><p class="field-error" id="err-name" data-for="name" hidden></p></div>
+<div><label class="f" for="f-email">Email <span class="req">required</span></label><input id="f-email" name="email" maxlength="200" type="email" autocomplete="email" required><p class="field-error" id="err-email" data-for="email" hidden></p></div>
+<div class="full"><label class="f" for="f-message">Anything else</label><textarea id="f-message" name="message" maxlength="4000"></textarea></div>
+</div>
+<div class="hp" aria-hidden="true"><label>Leave this field empty<input name="_gotcha" type="text" tabindex="-1" autocomplete="off"></label></div>
+<p class="consent">By sending this form you agree that your details are handled as described in the <a href="../privacy/">Privacy notice</a>.</p>
+<button class="btn" id="enquiry-submit" type="submit">Send brief <svg viewBox="0 0 14 14" aria-hidden="true"><path d="M2 7h10M8 3l4 4-4 4" fill="none" stroke="currentColor" stroke-width="1.4"/></svg></button>
+</form>
+<p class="fallback" id="enquiry-fallback">Prefer email? Write to <span class="tbd" data-tbd="Enquiries email">Enquiries email</span>.</p>
+<div class="status ok" id="enquiry-success" role="status" tabindex="-1" hidden><p><b>Thank you, we will reply shortly</b></p><pre id="success-brief"></pre></div>
+<div class="status bad" id="enquiry-error" role="alert" tabindex="-1" hidden><p>The brief could not be sent. Please email it to <span class="tbd" data-tbd="Enquiries email">Enquiries email</span> instead.</p></div>
+</div>
+<div class="out">
+<div class="out-head"><span>Brief preview</span><span id="brief-count" aria-live="polite">0 / 7 trade fields</span></div>
+<pre id="brief-preview"></pre>
+<div class="out-foot"><button class="btn ghost" id="copy-brief" type="button">Copy brief</button><span class="copy-hint" id="copy-hint" role="status" hidden></span></div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="site">
+<div class="wrap">
+<div class="f-top">
+<div><img src="../assets/img/momac-energy-light.svg" alt="Momac Energy and Trading" width="148" height="44"><p>Momac Energy and Trading buys, resells and brokers physical crude oil and refined products. A Momac Holdings company.</p></div>
+<div><h2 class="fh">Trading</h2><ul><li><a href="../how-we-trade/">How we trade</a></li><li><a href="../products/">Products</a></li><li><a href="../process/">Process</a></li></ul></div>
+<div><h2 class="fh">Company</h2><ul><li><a href="../partners/">Partners</a></li><li><a href="../leadership/">Leadership</a></li><li><a href="../compliance/">Compliance</a></li><li><a href="../enquiry/">Enquiry</a></li></ul></div>
+<div><h2 class="fh">Registered details</h2><dl class="entity"><div><dt>Legal entity name</dt><dd><span class="tbd" data-tbd="Legal entity name">Legal entity name</span></dd></div><div><dt>Country of registration</dt><dd><span class="tbd" data-tbd="Country of registration">Country of registration</span></dd></div><div><dt>Licence number</dt><dd><span class="tbd" data-tbd="Licence number">Licence number</span></dd></div><div><dt>Registered office address</dt><dd><span class="tbd" data-tbd="Registered office address">Registered office address</span></dd></div><div><dt>Enquiries email</dt><dd><span class="tbd" data-tbd="Enquiries email">Enquiries email</span></dd></div></dl></div>
+</div>
+<p class="credit" id="photo-credits">Photography: <a href="https://unsplash.com/photos/H72SCCTZPE8" rel="noopener">PilMo Kang</a>, <a href="https://unsplash.com/photos/aerial-photography-of-tanker-ship--subrrYxv8A" rel="noopener">Shaah Shahidh</a>, <a href="https://unsplash.com/photos/0tEV0DLlj0s" rel="noopener">Patrick Decker</a> (Unsplash licence).</p>
+<div class="group"><span class="lab">Momac Holdings group</span><span>TopExpo</span><a href="https://tregholdings.com" rel="noopener">TREG Holdings</a><span>Gulf Bridge</span><a class="self" href="../">Momac Energy and Trading</a><span>GBC Oil Trading</span></div>
+<div class="f-bot"><span>© 2026 Momac Energy and Trading</span><span><a href="../privacy/">Privacy</a> · <a href="../terms/">Terms</a></span></div>
+</div>
+</footer>
+<div class="review" id="review">
+<div class="review-panel" id="review-panel" hidden><p class="review-title">Preview, not published</p><p><b data-count="facts">0</b> facts carry a source. Hover or focus a highlighted fact to read it.</p><p><b data-count="gaps">0</b> placeholders still need approved content.</p></div>
+<button type="button" class="review-btn" id="sources-toggle" aria-pressed="false" aria-controls="review-panel"><span class="dot" aria-hidden="true"></span>Sources</button>
+<button type="button" class="review-btn" id="next-placeholder">Go to next placeholder</button>
+<div class="review-tip" id="review-tip" role="tooltip" hidden data-prefix="Source: "></div>
+</div>
+</body>
+</html>
